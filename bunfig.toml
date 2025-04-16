@@ -1,0 +1,8 @@
+[install]
+# set default registry as a string
+registry = "https://registry.npmjs.org"
+hoist = true
+
+[workspace]
+packages = ["packages/*"]
+

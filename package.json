@@ -1,0 +1,17 @@
+{
+  "name": "lottoai",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "bun run build -w",
+    "dev": "bun run dev -w",
+    "lint": "bun run lint -w",
+    "format": "bun run format -w"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "eslint": "^9.24.0"
+  }
+}
+

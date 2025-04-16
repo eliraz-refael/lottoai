@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "fp-ts": "^2.16.9",
+    "io-ts": "^2.2.22",
+    "monocle-ts": "^2.3.13",
+    "morphic-ts": "^0.8.0-rc.2"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
